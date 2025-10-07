@@ -1,0 +1,9 @@
+<div>
+    <p>Cool-contacts : Salaires supérieurs à 2000$</p>
+    @for (item of dContacts; track $index) {
+        @if (item.salaire > 2000) {
+            <app-contact [contactItem]="item"></app-contact>
+        }
+    }
+</div>
+

@@ -1,9 +1,10 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { CoolContacts } from "./components/cool-contacts/cool-contacts";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [RouterOutlet, CoolContacts],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })

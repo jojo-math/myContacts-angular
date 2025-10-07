@@ -1,4 +1,4 @@
-export const contacts = [
+export const donnees = [
     {
         "id":1,
         "nom":"MELONG",
@@ -6,7 +6,8 @@ export const contacts = [
         "genre":"M",
         "numTel":"648628247",
         "adresse":"Nkolbisson",
-        "type":"actif"
+        "type":"actif",
+        "salaire":1800
     },
     {
         "id":2,
@@ -15,6 +16,7 @@ export const contacts = [
         "genre":"M",
         "numTel":"648628247",
         "adresse":"Nkolbisson",
-        "type":"actif"
+        "type":"actif",
+        "salaire":2100
     }
 ]
