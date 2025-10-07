@@ -1,0 +1,20 @@
+export const contacts = [
+    {
+        "id":1,
+        "nom":"MELONG",
+        "prenom":"Joan",
+        "genre":"M",
+        "numTel":"648628247",
+        "adresse":"Nkolbisson",
+        "type":"actif"
+    },
+    {
+        "id":2,
+        "nom":"MELONGO",
+        "prenom":"Arthur",
+        "genre":"M",
+        "numTel":"648628247",
+        "adresse":"Nkolbisson",
+        "type":"actif"
+    }
+]
