@@ -1,5 +1,5 @@
 import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { Router, RouterOutlet } from '@angular/router';
 import { CoolContacts } from "./components/cool-contacts/cool-contacts";
 
 @Component({
@@ -10,4 +10,5 @@ import { CoolContacts } from "./components/cool-contacts/cool-contacts";
 })
 export class App {
   protected readonly title = signal('myContacts');
+  constructor(public router: Router){}
 }

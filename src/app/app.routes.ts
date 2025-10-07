@@ -3,6 +3,7 @@ import { Contact } from './components/contact/contact';
 import { Apropos } from './views/apropos/apropos';
 import { CoolContacts } from './components/cool-contacts/cool-contacts';
 import { Contacts } from './views/contacts/contacts';
+import { App } from './app';
 
 export const routes: Routes = [
     {path:'contact', component: Contact},
